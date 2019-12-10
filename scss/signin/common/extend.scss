@@ -1,0 +1,29 @@
+/* @extend display-flex; */
+display-flex {
+    display: flex;
+    display: -webkit-flex;
+}
+/* @extend list-type-ulli; */
+list-type-ulli {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+//Ning-Web-Tech
+/* @extend fixed-pos-inline-block; */
+fixed-pos-inline-block {
+    /* If an absolute positioned element has no positioned ancestors,
+       it uses the document body, and moves along with page scrolling.
+     */
+    //position: absolute;
+    //top: 0;
+    //left: 0;
+
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+
+    display: inline-block;
+    z-index: 9999;
+}

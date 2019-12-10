@@ -1,0 +1,1 @@
+<div style="position: absolute;bottom: 0;text-align: center;width: 100%"> &copy Ning <?php echo date("Y"); ?></div>
